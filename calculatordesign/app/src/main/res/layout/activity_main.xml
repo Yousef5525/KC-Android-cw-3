@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39B454"
+    android:backgroundTint="#B9E861"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="45dp"
+        android:text="Calculator"
+        android:textColor="#000000"
+        android:textColorHighlight="#00FFFFFF"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/First"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Number"
+        android:background="@color/white"
+        android:padding="10dp"
+" />
+    <EditText
+        android:id="@+id/Second"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Second Number"
+        android:background="@color/white"
+        android:padding="10dp"
+
+    <Button
+        android:id="@+id/Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:background="#5FAA4A"
+        android:text="Calculate"
+        app:rippleColor="#8C3D3D" />
+    " />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="55dp"
+        android:text="Total:"
+        android:textColor="#000000"
+        android:textColorHighlight="#00FFFFFF"
+        android:textSize="55sp" />
+
+</LinearLayout>
