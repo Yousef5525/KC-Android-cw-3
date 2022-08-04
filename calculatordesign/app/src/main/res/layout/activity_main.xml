@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#39B454"
-    android:backgroundTint="#B9E861"
+    android:background="@drawable/calcbackground"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -16,7 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="45dp"
         android:text="Calculator"
-
+        android:fontFamily="cursive"
         android:textColor="#000000"
         android:textColorHighlight="#00FFFFFF"
         android:textSize="45sp" />
@@ -30,6 +29,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="First Number"
+        android:fontFamily="serif"
         android:background="@color/white"
         android:padding="10dp" />
 
@@ -42,6 +42,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Second Number"
+        android:fontFamily="serif"
         android:background="@color/white"
         android:padding="10dp" />
 
@@ -52,6 +53,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="60dp"
         android:text="Calculate"
+        android:fontFamily="serif"
         android:textSize="20sp" />
 
 
@@ -60,8 +62,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="23dp"
         android:text="Total:"
+        android:fontFamily="cursive"
         android:textColor="#000000"
         android:textColorHighlight="#00FFFFFF"
         android:textSize="55sp" />
